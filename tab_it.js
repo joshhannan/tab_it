@@ -15,7 +15,7 @@
 				if( !$(this).hasClass('active') ) {
 					// SET UP ACTIVE BUTTON
 					active_button = $(this).data('name');
-					$('.tab_links .button').removeClass('active');
+					$(settings.tab_button).removeClass('active');
 					$(this).addClass('active');
 					//TOGGLE CORRESPONDING CONTENT
 					$(settings.tab_content).hide();
